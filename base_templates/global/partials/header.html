@@ -1,0 +1,11 @@
+{% load static %}
+<div class="container-fluid">
+    <header id="header" class="row">
+      <div id="logo-container">
+        <img id="logo" src="{% static 'global/images/art_logo.svg' %}" alt="Art" />
+        <h1>Art</h1>
+      </div>
+      <p>Exibições de arte urbana</p>
+    </header>
+    {% include 'global/partials/menu.html' %}
+</div>
